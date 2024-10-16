@@ -1,0 +1,48 @@
+{
+	"id": "8435f104-05a6-4595-a884-f753ea9f166a",
+	"name": "PetStoreUser",
+	"timestamp": "2024-10-16T13:11:28.730Z",
+	"collection_id": "39043445-b22a9b19-18ca-4b92-af66-aac6e147ad02",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-10-16T13:11:27.430Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2de22b93-9263-4d67-bd2d-16fee8d8c795",
+			"name": "UserCreate",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 897,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				897
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 897,
+	"collection": {
+		"requests": [
+			{
+				"id": "2de22b93-9263-4d67-bd2d-16fee8d8c795",
+				"method": "POST"
+			},
+			{
+				"id": "58360855-a105-4dc7-9074-01a694efee7b",
+				"method": "GET"
+			}
+		]
+	}
+}
